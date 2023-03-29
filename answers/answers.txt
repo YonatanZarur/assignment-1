@@ -1,12 +1,30 @@
-3. mkdir answers | touch answers.txt | nano answers.txt
 
-4. /Users/danielzarur2022/github/assignment-1/answers.txt
+
+3. mkdir assignment-1 | cd assignment-1 | mkdir answers | touch answers.txt | nano answers.txt
+
+4. /Users/danielzarur2022/github/assignment-1/answers/answers.txt
 
 5. ls -a
 
 6. You specify for example : ls /users/danielzarur2022/Unix-1-files
 
 7. There is no trash can, once rm is executed it can never be returned.
-Apparently if running rm -rf /* it could cause so serious unintended consequnces.
+Apparently if running rm -rf /* it could cause some serious unintended consequnces.
 
+8. cd answers | mkdir results
 
+9. touch my_script.sh
+
+10. chmod +x my_script.sh
+
+11. cd /Users/danielzarur2022/GitHub/assignment-1/assignment-1-main-3/data
+
+12. sort -rn | sed -n '2p' | wc -l
+
+13. /path/to/my_script.sh file.csv
+
+14. mkdir unzipped-files | unzip data.zip | mv *.csv ~/Users/danielzarur2022/GitHub/assignment-1/assignment-1-main-3/data/unzipped-files
+
+15.rm *.zip
+
+16. cd unzipped-files | cp *20*.csv ~/Users/danielzarur2022/GitHub/assignment-1/answers/results
